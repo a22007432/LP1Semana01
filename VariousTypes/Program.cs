@@ -35,6 +35,12 @@ namespace VariousTypes
             Console.WriteLine(r1);
             Console.WriteLine(r2);
 
+            bool b1 = true;
+            bool b2 = 1>3;
+
+            Console.WriteLine(b1);
+            Console.WriteLine(b2);
+
         }
     }
 }
