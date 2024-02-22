@@ -13,6 +13,14 @@ namespace ManyStrings
             Console.WriteLine(s1);
             Console.WriteLine(s2);
             Console.WriteLine(s3);
+
+            char x = '\u113D';
+
+            string s4 = "oh look: ->" + x + "a mountain!";
+            string s5 = $"oh look!:-> {x}{x}{x}{x}{x} a mountain range!";
+
+            Console.WriteLine(s4);
+            Console.WriteLine(s5);
         }
     }
 }
