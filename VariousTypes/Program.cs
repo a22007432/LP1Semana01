@@ -29,6 +29,12 @@ namespace VariousTypes
             Console.WriteLine(c3);
             
 
+            float r1 = 9.123f;
+            double r2 =9.12345789098; 
+            
+            Console.WriteLine(r1);
+            Console.WriteLine(r2);
+
         }
     }
 }
