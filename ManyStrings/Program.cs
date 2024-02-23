@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Text;
 
 namespace ManyStrings
 {
     class Program
     {
         static void Main(string[] args)
+
         {
+            Console.OutputEncoding = Encoding.UTF8;
             double xx = 1.23456;
             int ii = 19;
 
@@ -26,9 +29,9 @@ namespace ManyStrings
             Console.WriteLine(s4);
             Console.WriteLine(s5);
 
-            string s6 = $"xx={xx,2:f}";
-            string s7 = $"xx={xx,1:p}";
-            //n percebo
+            string s6 = $"xx={xx,2:f2}";
+            string s7 = $"xx={xx,1:p1}";
+            //o ultimo 
 
             Console.WriteLine(s6);
             Console.WriteLine(s7);
